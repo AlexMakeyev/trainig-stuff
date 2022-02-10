@@ -14,6 +14,7 @@ btnPlus.addEventListener('click', function () {
     outputEl.textContent = total
     valueInput1.value = '';
     valueInput2.value = '';
+    console.log(total);
 
 })
 btnClear.addEventListener('click', function () {
@@ -27,6 +28,7 @@ btnMinus.addEventListener('click', function () {
     outputEl.textContent = total
     valueInput1.value = '';
     valueInput2.value = '';
+    console.log(total);
 })
 btnMult.addEventListener('click', function () {
     const value1 = Number(valueInput1.value);
@@ -35,6 +37,7 @@ btnMult.addEventListener('click', function () {
     outputEl.textContent = total
     valueInput1.value = '';
     valueInput2.value = '';
+    console.log(total);
 })
 btnDiv.addEventListener('click', function () {
     const value1 = Number(valueInput1.value);
@@ -43,4 +46,5 @@ btnDiv.addEventListener('click', function () {
     outputEl.textContent = total
     valueInput1.value = '';
     valueInput2.value = '';
+    console.log(total);
 })
