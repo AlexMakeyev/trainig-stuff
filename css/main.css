@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+button {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  border-radius: 10px;
+  color: rebeccapurple;
+  background-color: silver;
+}
+label {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: darkmagenta;
+}
+input {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  line-height: 2;
+  border-radius: 10px;
+  color: coral;
+}
+p {
+  font-size: 50px;
+  line-height: 2;
+  color: darkmagenta;
+}
+span {
+  color: coral;
+}
